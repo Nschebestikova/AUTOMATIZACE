@@ -1,0 +1,90 @@
+TestLogin - API dokumentace
+
+
+API URL: 	http://testovani.kitner.cz
+APP: 		/login_app/userauth.php
+
+TYP: Rest
+
+Metoda: POST
+
+Účel: Slouží pro přihlášení uživatele do aplikace
+
+
+JSON format
+
+Obsahuje následující položky:
+username
+password
+useragent
+
+
+
+targetid
+
+
+username
+obsahuje jméno uživatele pro přihlášení
+
+password
+obsahuje heslo uživatele
+
+useragent
+obsahuje typ a verzi prohlížeče ze kterého se uživatel hlásí
+
+
+
+Formát hlavičky (header):
+Content-Type=application/json
+
+
+Příklady jsou na další stránce!!!
+
+
+
+
+Příklad pozitivního dotazu
+{"username":"admin","password":"tajneadmin","useragent":"Chrome 101.0.4951.67"}
+
+
+
+Příklad odpovědi na pozitivní dozat
+{
+    "response": "200",
+    "reason": "correct",
+    "agent": {
+        "browser": "Chrome 101.0.4951.67",
+        "version": ""
+    }
+}
+
+
+
+
+
+Příklad chybného dotazu
+{"username":"novak","password":"tohlenenidobreheslo"}
+
+
+
+
+
+
+Příklad odpověď na chybný dotaz
+{
+    "response": "403",
+    "reason": "spatne heslo",
+    "agent": []
+}
+
+
+
+
+
+
+
+
+
+
+
+
