@@ -5,31 +5,27 @@
 *** Settings ***
 Documentation     Cvičení: práce s promennými
 
-
-
 *** Variables ***
-# Zde provést opravu aby se vytovřil seznam dobře
-    @{sezn1} =          Chrome       Edge     Wen     Thu     Fri     Sat     Sun
-
 #vytvořte seznam obsahující názvy prohlížečů
+@{list} =	Chrome  IE  Safari
 
 *** Test Cases ***
 
-Muj test s promenyma
 #Vypište všechny položky seznamu do logu
-
-
+Test pro vypsani položek seznamu do logu
     # sem je třeba doplnit příkazy
+#    @{list} =	Create List	    a	b	c
+    Log To Console  ${list}[0]
+    Log Many        @{list}
 
 
 #Vypište druhou položku seznamu na obrazovku (do konzole)
-
-
+Test pro vypsani jedne polozky ze seznamu
+    Log To Console  ${list}[1]
 
 #Vytvořte ověření že položka na pozici 0 v seznamu obsahuje Chrome
-
+Test pro oveření že 0 položka seznamu obsahuje Chrome
     #použijte například  Should Contain
-
 
 
 
