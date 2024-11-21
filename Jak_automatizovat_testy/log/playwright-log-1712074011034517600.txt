@@ -1,0 +1,141 @@
+{"level":30,"time":"2024-04-02T16:06:51.672Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Listening on 50417"}
+(node:18676) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-04-02T16:06:52.245Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.246Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.250Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.250Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9965:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10590:59)
+    at PlaywrightServer.setTimeout (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10840:57)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-04-02T16:06:52.292Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.292Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.297Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.297Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9965:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10590:59)
+    at PlaywrightServer.setTimeout (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10840:57)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-04-02T16:06:52.330Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.331Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.334Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.334Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9965:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10590:59)
+    at PlaywrightServer.setTimeout (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10840:57)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-04-02T16:06:52.365Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.366Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.369Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.369Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9965:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10590:59)
+    at PlaywrightServer.setTimeout (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10840:57)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-04-02T16:06:52.417Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.417Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.420Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.420Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:52.425Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-04-02T16:06:52.897Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Adding browser to stack: chromium, version: 121.0.6167.57"}
+{"level":30,"time":"2024-04-02T16:06:52.898Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-04-02T16:06:52.898Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-04-02T16:06:52.903Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-04-02T16:06:52.904Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-04-02T16:06:52.925Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Changed active context"}
+{"level":30,"time":"2024-04-02T16:06:53.096Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Video path: undefined"}
+{"level":30,"time":"2024-04-02T16:06:53.097Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Changed active page"}
+{"level":30,"time":"2024-04-02T16:06:53.337Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method newPage"}
+{"level":30,"time":"2024-04-02T16:06:53.360Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method click"}
+{"level":30,"time":"2024-04-02T16:06:53.360Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Strict mode is enabled, find Locator with data-test=login_link in page."}
+{"level":30,"time":"2024-04-02T16:06:53.598Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method click"}
+{"level":30,"time":"2024-04-02T16:06:53.602Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-04-02T16:06:53.602Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Strict mode is enabled, find Locator with data-test=email_input in page."}
+{"level":30,"time":"2024-04-02T16:06:53.630Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method typeText"}
+{"level":30,"time":"2024-04-02T16:06:53.633Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method typeText"}
+{"level":30,"time":"2024-04-02T16:06:53.633Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Strict mode is enabled, find Locator with data-test=password_input in page."}
+{"level":30,"time":"2024-04-02T16:06:53.706Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method typeText"}
+{"level":30,"time":"2024-04-02T16:06:53.709Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method click"}
+{"level":30,"time":"2024-04-02T16:06:53.709Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Strict mode is enabled, find Locator with data-test=login_button in page."}
+{"level":30,"time":"2024-04-02T16:06:53.758Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method click"}
+{"level":30,"time":"2024-04-02T16:06:53.762Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-04-02T16:06:53.762Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","Take screenshot with options: ":{"path":"C:\\Users\\Nikča\\PycharmProjects\\Jak_automatizovat_testy\\log\\browser\\screenshot\\robotframework-browser-screenshot-4.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-04-02T16:06:53.897Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-04-02T16:06:53.901Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+{"level":30,"time":"2024-04-02T16:06:53.902Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Strict mode is enabled, find Locator with data-test=login_link in page."}
+{"level":30,"time":"2024-04-02T16:06:53.932Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Retrieved text for element data-test=login_link containing Přihlásit se"}
+{"level":30,"time":"2024-04-02T16:06:53.932Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getText"}
+{"level":30,"time":"2024-04-02T16:06:53.936Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-04-02T16:06:53.936Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","Take screenshot with options: ":{"path":"C:\\Users\\Nikča\\PycharmProjects\\Jak_automatizovat_testy\\log\\browser\\screenshot\\robotframework-browser-screenshot-5.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-04-02T16:06:54.031Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-04-02T16:06:54.035Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+{"level":30,"time":"2024-04-02T16:06:54.035Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Strict mode is enabled, find Locator with data-test=email_input_errors in page."}
+{"level":30,"time":"2024-04-02T16:06:54.052Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Retrieved text for element data-test=email_input_errors containing The email field is required."}
+{"level":30,"time":"2024-04-02T16:06:54.052Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getText"}
+{"level":30,"time":"2024-04-02T16:06:54.055Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-04-02T16:06:54.055Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","Take screenshot with options: ":{"path":"C:\\Users\\Nikča\\PycharmProjects\\Jak_automatizovat_testy\\log\\browser\\screenshot\\robotframework-browser-screenshot-6.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-04-02T16:06:54.222Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-04-02T16:06:54.228Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:54.230Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:54.232Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:54.234Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:54.236Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Changed active context"}
+{"level":30,"time":"2024-04-02T16:06:54.237Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Changing current active page: page=0d9061dc-c61d-4f2f-bf55-a628a2897c8c"}
+{"level":30,"time":"2024-04-02T16:06:54.237Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Changed active page"}
+{"level":30,"time":"2024-04-02T16:06:54.240Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:54.242Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:54.244Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-04-02T16:06:54.245Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-04-02T16:06:54.247Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-04-02T16:06:54.248Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-04-02T16:06:54.250Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Changing current active page: page=0d9061dc-c61d-4f2f-bf55-a628a2897c8c"}
+{"level":30,"time":"2024-04-02T16:06:54.250Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Changed active page"}
+{"level":30,"time":"2024-04-02T16:06:54.253Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:54.256Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:54.258Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Changed active context"}
+{"level":30,"time":"2024-04-02T16:06:54.258Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Changing current active page: page=0d9061dc-c61d-4f2f-bf55-a628a2897c8c"}
+{"level":30,"time":"2024-04-02T16:06:54.258Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Changed active page"}
+{"level":30,"time":"2024-04-02T16:06:54.260Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-04-02T16:06:54.271Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Removed page=af02ddf7-abb3-47f4-bd93-7d3ec9f88ac5 from context=99929250-bbbe-4391-885c-141fac2b53f8 page stack"}
+{"level":30,"time":"2024-04-02T16:06:54.289Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-04-02T16:06:54.295Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:54.295Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-04-02T16:06:56.650Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-04-02T16:06:56.780Z","pid":18676,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method closeAllBrowsers"}

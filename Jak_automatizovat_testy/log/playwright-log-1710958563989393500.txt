@@ -1,0 +1,504 @@
+{"level":30,"time":"2024-03-20T18:16:04.597Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Listening on 64082"}
+(node:17260) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-03-20T18:16:05.137Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-20T18:16:05.137Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-20T18:16:05.140Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-20T18:16:05.140Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-20T18:16:05.146Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.146Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.185Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.185Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.220Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.220Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.254Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.254Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.289Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.289Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.325Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.325Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.374Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.374Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.408Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.408Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.442Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.442Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.476Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.476Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.509Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.509Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.543Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.543Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.576Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.576Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.611Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.611Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.645Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.645Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.679Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.679Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.713Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.714Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.747Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.747Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.780Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.780Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.815Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.815Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.848Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.848Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.883Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.884Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.916Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.917Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.951Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.951Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:05.984Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:05.985Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:06.019Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:06.019Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:06.052Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:06.052Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:06.087Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:06.088Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:06.121Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:06.121Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:06.154Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at findLocator (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8566:3)
+    at getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9374:25)
+    at PlaywrightServer.getText (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:06.154Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  getText"}
+{"level":30,"time":"2024-03-20T18:16:06.177Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at takeScreenshot (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8653:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:06.178Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9965:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10590:59)
+    at PlaywrightServer.setTimeout (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10840:57)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:06.231Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-20T18:16:06.231Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9965:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10590:59)
+    at PlaywrightServer.setTimeout (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10840:57)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-03-20T18:16:06.257Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-20T18:16:06.257Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-20T18:16:08.596Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-03-20T18:16:08.597Z","pid":17260,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method closeAllBrowsers"}

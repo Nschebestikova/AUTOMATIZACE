@@ -1,0 +1,39 @@
+{"level":30,"time":"2024-02-28T11:04:35.194Z","pid":20756,"hostname":"DESKTOP-Q1JDMLI","msg":"Listening on 51039"}
+(node:20756) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-02-28T11:04:35.487Z","pid":20756,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-28T11:04:35.488Z","pid":20756,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-28T11:04:35.495Z","pid":20756,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-28T11:04:35.495Z","pid":20756,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9965:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10590:59)
+    at PlaywrightServer.setTimeout (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10840:57)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-02-28T11:04:35.576Z","pid":20756,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-28T11:04:35.577Z","pid":20756,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9965:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10590:59)
+    at PlaywrightServer.setTimeout (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10840:57)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-02-28T11:04:35.668Z","pid":20756,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-28T11:04:35.668Z","pid":20756,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-02-28T11:04:38.596Z","pid":20756,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-02-28T11:04:38.597Z","pid":20756,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method closeAllBrowsers"}

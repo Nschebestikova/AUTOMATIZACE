@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-11-21T18:19:41.703554" rpa="false" schemaversion="5">
+<suite id="s1" name="PRVNItest" source="C:\Users\Nikča\PycharmProjects\Jak_automatizovat_testy\jak_automatizovat_testy\Cviceni\Hotova_reseni\PRVNItest.robot">
+<test id="s1-t1" name="Prvni test pozitivní" line="8">
+<kw name="Run" owner="OperatingSystem">
+<msg time="2024-11-21T18:19:41.742739" level="INFO">Running command 'help 2&gt;&amp;1'.</msg>
+<arg>help</arg>
+<doc>Runs the given command in the system and returns the output.</doc>
+<status status="PASS" start="2024-11-21T18:19:41.732743" elapsed="0.038292"/>
+</kw>
+<status status="PASS" start="2024-11-21T18:19:41.732743" elapsed="0.038292"/>
+</test>
+<test id="s1-t2" name="Prvni test negativní" line="12">
+<kw name="Run" owner="OperatingSystem">
+<msg time="2024-11-21T18:19:41.780039" level="INFO">Running command 'help hello 2&gt;&amp;1'.</msg>
+<arg>help hello</arg>
+<doc>Runs the given command in the system and returns the output.</doc>
+<status status="PASS" start="2024-11-21T18:19:41.772040" elapsed="0.030076"/>
+</kw>
+<status status="PASS" start="2024-11-21T18:19:41.772040" elapsed="0.030076"/>
+</test>
+<status status="PASS" start="2024-11-21T18:19:41.705553" elapsed="0.096563"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="PRVNItest">PRVNItest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

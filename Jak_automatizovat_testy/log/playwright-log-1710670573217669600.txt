@@ -1,0 +1,62 @@
+{"level":30,"time":"2024-03-17T10:16:14.043Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Listening on 63855"}
+(node:13940) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-03-17T10:16:14.365Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:14.365Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:14.369Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:14.369Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:14.376Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-03-17T10:16:14.830Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Adding browser to stack: chromium, version: 121.0.6167.57"}
+{"level":30,"time":"2024-03-17T10:16:14.831Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-03-17T10:16:14.830Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-03-17T10:16:14.836Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-03-17T10:16:14.837Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-03-17T10:16:14.867Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Changed active context"}
+{"level":30,"time":"2024-03-17T10:16:15.078Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Video path: undefined"}
+{"level":30,"time":"2024-03-17T10:16:15.078Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Changed active page"}
+{"level":30,"time":"2024-03-17T10:16:15.365Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+page.goto: net::ERR_ABORTED; maybe frame was detached?
+Call log:
+  [2m- navigating to "https://www.megaknihy.cz/autentifikace?back=identity.php", waiting until "load"[22m
+
+    at newPage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10269:18)
+    at async PlaywrightServer.newPage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:28) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-03-17T10:16:15.419Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at takeScreenshot (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8653:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10605:34)
+    at Object.onReceiveHalfClose (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1084:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:516:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:554:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\Nikča\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:363:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2024-03-17T10:16:15.420Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Error of node method  takeScreenshot"}
+{"level":30,"time":"2024-03-17T10:16:15.458Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:15.459Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:15.461Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:15.462Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:15.465Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Changed active context"}
+{"level":30,"time":"2024-03-17T10:16:15.467Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:15.467Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:15.470Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-17T10:16:15.470Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-17T10:16:15.473Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-03-17T10:16:15.473Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-03-17T10:16:15.478Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:15.478Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:15.480Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Changed active context"}
+{"level":30,"time":"2024-03-17T10:16:15.481Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-03-17T10:16:15.488Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-03-17T10:16:15.492Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:15.492Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-03-17T10:16:17.895Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-03-17T10:16:18.018Z","pid":13940,"hostname":"DESKTOP-Q1JDMLI","msg":"End of node method closeAllBrowsers"}
