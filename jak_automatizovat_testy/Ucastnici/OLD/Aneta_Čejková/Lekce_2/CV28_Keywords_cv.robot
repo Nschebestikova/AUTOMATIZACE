@@ -1,0 +1,28 @@
+*** Settings ***
+Documentation     Cvičení na klíčová slova
+...               Připravte klíčové slovo pro kalkulačku
+
+
+*** Test Cases ***
+
+Sčítání
+        ${result}=          Calculate  20  15   +   # pozor je nutné pro oddělení parametrů používat min 2 mezery
+        Should Be Equal     ${result}  ${35}
+
+Odečítání
+    ${result}=          Calculate  20  15   -
+    Should Be Equal     ${result}  ${5}
+Násobení
+    ${result}=          Calculate  20  15   *
+    Should Be Equal     ${result}  ${300}
+Dělení
+#    Should Be Equal As Numbers
+    ${result}=          Calculate  20  15   /
+    Should Be Equal As Numbers    ${result}    ${1.333333}
+
+*** Keywords ***
+
+Calculate
+    [Arguments]    ${a}  ${b}  ${o}
+    ${result}=        Evaluate    ${a} ${o} ${b}
+    [return]       ${result}

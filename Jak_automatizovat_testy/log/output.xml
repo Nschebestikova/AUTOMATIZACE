@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-11-21T20:52:24.886008" rpa="false" schemaversion="5">
+<suite id="s1" name="CV31 BrowserLib prvnitest" source="C:\Users\Nikča\jak_automatizovat_testy\Cviceni\CV31_BrowserLib_prvnitest.robot">
+<test id="s1-t1" name="Starting a browser with a page" line="5">
+<kw name="New Browser" owner="Browser">
+<msg time="2024-11-21T20:52:26.270434" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Nik\u010da\\jak_automatizovat_testy\\log\\browser\\traces\\e04c2648-b642-4517-bcd9-ac32f11ead19"}</msg>
+<msg time="2024-11-21T20:52:26.647922" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Nikča\\jak_automatizovat_testy\\log\\browser\\traces\\e04c2648-b642-4517-bcd9-ac32f11ead19"}</msg>
+<arg>chromium</arg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2024-11-21T20:52:26.270434" elapsed="0.378566"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2024-11-21T20:52:27.454129" level="INFO">Successfully initialized new page object and opened url: http://testovani.kitner.cz/courses</msg>
+<msg time="2024-11-21T20:52:27.454129" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>http://testovani.kitner.cz/courses</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2024-11-21T20:52:26.649000" elapsed="0.806131"/>
+</kw>
+<kw name="Get Title" owner="Browser">
+<msg time="2024-11-21T20:52:27.478137" level="INFO">Title: 'Testování - Přehled kurzů'</msg>
+<arg>==</arg>
+<arg>Testování - Přehled kurzů</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2024-11-21T20:52:27.455131" elapsed="0.023006"/>
+</kw>
+<status status="PASS" start="2024-11-21T20:52:26.266424" elapsed="1.211713"/>
+</test>
+<status status="PASS" start="2024-11-21T20:52:24.888007" elapsed="2.701840"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="CV31 BrowserLib prvnitest">CV31 BrowserLib prvnitest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

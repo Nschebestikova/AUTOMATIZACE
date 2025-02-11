@@ -1,0 +1,11 @@
+*.log
+*.dat
+output.xml
+log.html
+report.html
+.idea/
+log/
+browser/
+video/
+log/playwright-log.txt
+playwright-log.txt

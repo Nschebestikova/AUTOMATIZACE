@@ -1,0 +1,28 @@
+#*** Settings ***
+#Library     OperatingSystem
+#
+#
+#*** Test Cases ***
+#
+#Prvni test pozitivní
+#    ${res} =        run     help dir
+#    log             ${res}
+#    Should Contain  ${res}  Displays a list of files and subdirectories in a directory.
+#
+#
+#Druhy test negativni
+#    ${res} =        run     help ahoj
+#    log             ${res}
+#    Should Contain  ${res}  This command is not supported by the help utility.
+
+*** Settings ***
+Documentation     An example about for loops.
+
+*** Variables ***
+@{ROBOTS}=        Bender    Johnny5    Terminator    Robocop
+
+*** Tasks ***
+Loop Over A List Of Items And Log Each Of Them
+    FOR    ${robot}    IN    @{ROBOTS}
+        Log    ${robot}
+    END

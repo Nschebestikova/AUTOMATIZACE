@@ -1,0 +1,8 @@
+DÚ1
+
+Cvičení č.1: Zvolte si doménu (weby, webové aplikace, mobilní aplikace, sítě, databáze...)
+ - zaměřím se na testování webových aplikací, protože s nima už stejně pracuji, tak mi to je bližší
+
+Cvičení č.2: Zvolte si nástroj (RobotFW, Cypress.io, Selenium...)
+ - budu s vámi pracovát v robotframworku kdyžtak si to pak zkoušet ve volném čase v Seleniu, protože se obávám,
+   že bych v tom měla hrozný hokej potom
